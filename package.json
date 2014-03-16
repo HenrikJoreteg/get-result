@@ -1,0 +1,30 @@
+{
+  "name": "get-result",
+  "description": "Utility function for getting a named property from an object. If the named property is a function invoke it with the object as context and return the result, otherwise return the property.",
+  "version": "0.0.0",
+  "author": "Henrik Joreteg <henrik@andyet.net>",
+  "bugs": {
+    "url": "https://github.com/henrikjoreteg/get-result/issues"
+  },
+  "dependencies": {
+    "is-function": "1.x.x"
+  },
+  "devDependencies": {
+    "tape": "2.x.x"
+  },
+  "homepage": "https://github.com/henrikjoreteg/get-result",
+  "keywords": [
+    "utility",
+    "result",
+    "property"
+  ],
+  "license": "MIT",
+  "main": "get-result.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/henrikjoreteg/get-result"
+  },
+  "scripts": {
+    "test": "node test.js"
+  }
+}
